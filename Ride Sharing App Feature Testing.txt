@@ -1,0 +1,111 @@
+Statement:
+Feature Specification: 
+A ride-sharing app introduces a feature for "Scheduled Rides", allowing users to 
+book a ride up to 7 days in advance. 
+•   Users can set the pickup location, destination, and time. 
+•   Users receive notifications 30 minutes and 5 minutes before the ride. 
+•   Drivers can accept scheduled rides in advance and receive reminders. 
+•   A cancellation policy applies: users cancelling less than 30 minutes before the 
+ride incur a penalty fee. 
+Tasks: 
+1.  Identify the key testing areas for this feature. 
+2.  What are the attractive features that can be added to any taxi application?
+
+
+
+Solution: 
+
+The Ride-Sharing App Feature Testing task involves introducing a feature for "Scheduled Rides" and identifying key areas for testing.
+
+The "Scheduled Rides" feature allows users to:
+
+Book a ride up to 7 days in advance.
+Set pickup location, destination, and time.
+Receive notifications 30 minutes and 5 minutes before the ride.
+Allow drivers to accept scheduled rides and receive reminders.
+Impose a penalty for cancellations made within 30 minutes of the ride.
+
+Key Testing Areas
+
+1. Booking Functionality:
+
+-Test if a user can successfully schedule a ride up to 7 days in advance.
+-Verify that mandatory fields (pickup location, destination, time) are validated.
+-Ensure error messages for invalid inputs, such as past dates or times beyond the 7-day limit.
+-Validate time zones to ensure accurate scheduling.
+
+2. Notification System:
+
+-Verify notifications are sent 30 minutes and 5 minutes before the scheduled ride.
+-Test notifications across different channels (e.g., SMS, email, app push notifications).
+-Ensure notifications respect the user's preferences.
+
+3. Driver Acceptance:
+
+-Verify that drivers can view, accept, or decline scheduled rides.
+-Test if reminders are sent to drivers at appropriate times.
+-Ensure no duplicate assignments (e.g., one ride assigned to multiple drivers).
+
+4. Cancellation Policy:
+
+-Validate the penalty logic for cancellations within 30 minutes of the ride.
+-Test scenarios where users cancel before 30 minutes to ensure no penalty is applied.
+-Ensure the penalty fee is calculated correctly and charged appropriately.
+
+5. Edge Cases:
+
+-Booking rides at peak or non-working hours (e.g., midnight or holidays).
+-Multiple users scheduling rides simultaneously.
+-Ride re-scheduling or editing after booking.
+
+6. System Performance:
+
+-Test load handling for multiple scheduled rides.
+-Validate that the system processes concurrent ride notifications efficiently.
+
+7. Error Handling:
+
+-Test for scenarios like invalid addresses, system downtime, or failed notifications.
+-Verify clear and actionable error messages for users and drivers.
+
+Attractive Features for Taxi Applications:
+
+1. Real-Time Driver Tracking:
+
+Allow users to track drivers in real time before and during the ride.
+
+2. Ride Sharing (Carpooling):
+
+Provide an option for users to share rides with others traveling on a similar route.
+
+3. Dynamic Pricing Notifications:
+
+Notify users about surge pricing and provide alternatives (e.g., waiting for a lower fare).
+
+4. Multiple Payment Options:
+
+Support payment methods like UPI, credit/debit cards, wallets, and cash.
+
+5. Favorite Locations:
+
+Allow users to save frequently used locations for quicker bookings.
+
+6. Eco-Friendly Ride Options:
+
+Provide users with electric vehicle or hybrid car options.
+
+7. Rating and Feedback System:
+
+Enable users to rate drivers and provide feedback for service improvement.
+
+8. Accessibility Features:
+
+Include ride options for users with disabilities, such as wheelchair-accessible vehicles.
+
+9. Ride History and Analytics:
+
+Allow users to view past rides and analyze expenses.
+
+10. AI-Powered Recommendations:
+
+Suggest the best times or routes to travel based on historical data and traffic analysis.
