@@ -1,3 +1,12 @@
+# Evaluate Expression:
+#You have to write a program which takes Mathematical expression as an input, 
+#evaluate the expression and provide  the result in output. You can write the solution 
+#in any programming language. The program should consider the  associativity and 
+#precision of the operators. 
+#Constraint: 
+#You must write your own logic of the calculation. 
+#You can use any data structure. 
+
 def evaluate_expression(expression):
     def precedence(op):
         if op in ('+', '-'):
